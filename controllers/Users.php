@@ -68,7 +68,7 @@ class Users extends CI_Controller {
             return FALSE;
         }
 
-        $debounce_apiKey = "5e286d4f9d6c2";
+        $debounce_apiKey = "INSERT DEBOUNCE API KEY HERE";
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
@@ -105,7 +105,7 @@ class Users extends CI_Controller {
 
     public function googleCaptachStore(){
 
-        $secret='6LfYxdEUAAAAABRVhMfsy-XcEz1ESC7wv7baUphs';
+        $secret='INSERT GOOGLE SERVER SIDE API KEY HERE';
 
         $postdata = http_build_query([
             "secret"=>$secret,

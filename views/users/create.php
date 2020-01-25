@@ -17,7 +17,7 @@
                     <?php echo form_error('email'); ?>
                     </small> 
                 </div>
-                <div class="g-recaptcha" data-sitekey="6LfYxdEUAAAAAG9bvJpqf0PZwuZAyx9Zmy9FQx0q"></div>
+                <div class="g-recaptcha" data-sitekey="INSERT GOOGLE CLIENT SIDE API KEY HERE"></div>
                 <small id="gHelp" class="text-danger">
                     <?php echo form_error('g-recaptcha-response'); ?>
                 </small>
