@@ -1,5 +1,4 @@
 # registration-app
-Registration application made with Codeigniter
 
 Registration application made in codeigniter using google recaptcha, debounce.io email validation and bootstrap 4
 
